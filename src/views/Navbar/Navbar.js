@@ -16,11 +16,11 @@ export default function Navbar() {
       <nav className="nav-card">
       <img className="logo" src={Logo} alt="logo" />
       <p className="text">Digital Life Certificate for Pensioners</p>
-        <NavLink className="navLink" style={navLinkStyle} to="/">Home</NavLink>
+        <NavLink className="navLink" style={navLinkStyle} to="/home">Home</NavLink>
         <NavLink className="navLink" style={navLinkStyle} to="/about">About</NavLink>
         <NavLink className="navLink" style={navLinkStyle} to="/center">Locate a Center</NavLink>
         <NavLink className="navLink" style={navLinkStyle} to="/contact">Contact</NavLink>
-        <NavLink className="navLink create" style={navLinkStyle} to="/create">SignUp/Login</NavLink>
+        <NavLink className="navLink create" style={navLinkStyle} to="/">SignUp/Login</NavLink>
       </nav>
     </div> 
   );
