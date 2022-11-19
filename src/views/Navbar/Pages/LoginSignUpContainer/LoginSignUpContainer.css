@@ -1,0 +1,42 @@
+.login-signup-container {
+  display: grid;
+  grid-template-columns: 70% 30% 70%;
+  width: 60%;
+  height: 400px;
+  background-color: #f5f5f5;
+  padding: 0px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #abb2b9;
+  overflow: hidden;
+  transition: 0.3s linear;
+}
+.login-signup-container.active {
+  grid-template-columns: 0% 30% 70%;
+  transition: 0.3s linear;
+}
+.login-signup-container .side-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://images.pexels.com/photos/9924903/pexels-photo-9924903.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+.login-signup-container .side-div button {
+  padding: 10px 20px;
+  background-color: #abb2b9;
+  color: #fff;
+  border: 1px solid #abb2b9;
+  cursor: pointer;
+  font-size: 0.99rem;
+  transition: 0.2s linear;
+}
+.login-signup-container .side-div button:hover {
+  background-color: rgb(55, 54, 54);
+  border: 1px solid rgb(55, 54, 54);
+}

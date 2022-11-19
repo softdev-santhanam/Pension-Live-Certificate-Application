@@ -1,0 +1,18 @@
+.p1 {
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.drop-down {
+  margin-left: 100px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.upload-btn {
+  margin-top: 70px;
+  margin-left: 100px;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(131, 137, 143);
+}
+

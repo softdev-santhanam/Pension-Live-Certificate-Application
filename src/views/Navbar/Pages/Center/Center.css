@@ -1,0 +1,35 @@
+.para1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.para2 {
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
+.para3 {
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+}
+.para4 {
+    margin-left: 150px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.locator-details {
+    margin-left: 150px;
+    margin-top: 15px;
+    font-size: large;
+}
+.selector {
+    margin-left: 150px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+

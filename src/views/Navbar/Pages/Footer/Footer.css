@@ -1,0 +1,12 @@
+.footer-bottom-container {
+  position: absolute;
+  width: 100%;
+  height: 3%;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  background-color: #abb2b9;
+}
+.footer-bottom {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.about-img {
+    width: 400px;
+}
+.phone-card {
+    bottom: 0;
+    left: 0;
+}
+.contact-container {
+    display: flex;
+}
+.phone-icon {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+.mail-icon {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
