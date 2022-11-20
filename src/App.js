@@ -16,7 +16,7 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Footer />
-
+        {/* Route */}
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
