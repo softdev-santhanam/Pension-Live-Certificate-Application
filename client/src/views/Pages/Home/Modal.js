@@ -47,6 +47,14 @@ function Modal({ setOpenModal }) {
           type="text"
           id="fname"
           name="fname"
+          value="Adhar ID"
+          className="pension-id"
+        />
+
+        <input
+          type="text"
+          id="fname"
+          name="fname"
           value="Pension ID"
           className="pension-id"
         />

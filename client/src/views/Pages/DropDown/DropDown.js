@@ -73,7 +73,7 @@ export default function App() {
           value={values.city}
           onChange={(value) => setFieldValue("city", value)}
         />
-        <button type="submit">Submit</button>
+        <button type="submit" className="submit-btn">Submit</button>
         {/* <p>{JSON.stringify(csc.get)}</p> */}
       </form>
     </div>
